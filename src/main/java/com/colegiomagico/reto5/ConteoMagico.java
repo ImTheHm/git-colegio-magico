@@ -6,7 +6,18 @@ package com.colegiomagico.reto5;
 public class ConteoMagico {
 
     public static int contar(int limite) {
-        return 0; // TODO: Cambia esto
+       Integer numero = 0;
+       Integer sumaNum = 0;
+       
+
+       while (numero <= limite) {
+        sumaNum += numero;
+        numero++;
+       }
+    
+       return sumaNum;
+        
+        // TODO: Cambia esto
     }
 
     public static void main(String[] args) {
